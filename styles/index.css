@@ -10,7 +10,6 @@ header {
     height: 100px;
     font-size: 20px;
     margin: 0 auto 50px;
-    
 }
 header div {
     float: left;
@@ -461,4 +460,28 @@ aside i {
 .bottom p:last-child {
     position: absolute;
     right: 11%;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 30px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+@media(max-width: 425px) {
+
+    header {
+        padding: 20px;
+    }
+
+    header label {
+        display: initial;
+    }
 }

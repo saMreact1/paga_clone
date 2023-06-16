@@ -423,17 +423,17 @@ aside i {
 
 .footer {
     width: 100%;
-    height: 450px;
-    margin-top: 80px;
-    padding: 9%;
+    height: 470px;
+    margin-top: 50px;
+    padding: 80px 8%;
     background-color: rgba(229, 252, 52, 0.7);
 }
 .footer div {
     float: left;
-    margin: 10px;
+    margin: 12.3px;
 }
 .footer div:last-child {
-    margin-top: 40px;
+    margin-top: 80px;
 }
 .footer .vision {
     width: 28%;
@@ -450,16 +450,17 @@ aside i {
     border: 3px solid orangered;
     border-radius: 20px;
     padding: 5px;
+    margin-bottom: 20px;
 }
 .vision i {
-    margin: 10px;
+    margin: 30px 10px;
     padding: 8px;
     color: red;
     border-radius: 50%;
     background-color: rgb(255, 127, 133, 0.3);
 }
 .about a, .products a,
-.links a, .reach a {
+.links a, .reach a, .reach p {
     text-decoration: none;
     display: block;
     line-height: 30px;
@@ -467,12 +468,12 @@ aside i {
 }
 .footer h2 {
     color: orangered;
+    margin-bottom: 30px;
 }
 .reach p i {
     margin-right: 10px;
 }
 .bottom {
-    margin-top: 70px;
     width: 96.5%;
     height: 60px;
 }
@@ -494,21 +495,6 @@ header label {
     cursor: pointer;
     display: none;
 }
-
-
-
-@media(max-width: 425px) {
-
-    header {
-        padding: 20px;
-    }
-
-    header label {
-        display: initial;
-    }
-}
-
-
 
 
 
@@ -761,6 +747,41 @@ header label {
         border: 1px solid orange;
         padding: 10px;
     }
+
+    .footer {
+        height: 440px;
+        margin-top: 50px;
+        font-size: 15px;
+        padding: 70px 5%;
+    }
+    .footer div {
+        margin: 7px;
+    }
+    .footer div:last-child {
+        margin-top: 40px;
+    }
+    .footer .vision {
+        width: 27%;
+    }
+    .about, .products, .links {
+        width: 12%;
+    }
+    .reach {
+        width: 28%;
+    }
+
+    .about a, .products a,
+    .links a, .reach a, .reach p {
+        line-height: 25px;
+    }
+    .footer h2 {
+        margin-bottom: 25px;
+    }
+    .reach p i {
+        margin-right: 6px;
+        font-size: 14px;
+    }
+    
 }
 
 
@@ -929,7 +950,7 @@ header label {
 
     .article7 {
         width: 85%;
-        height: 400px;
+        height: 450px;
         padding: 10px 50px;
     }
     .article7 h2 {
@@ -982,5 +1003,67 @@ header label {
         margin: 10px 15px;
         border: 1px solid orange;
         padding: 10px;
+    }
+
+    .footer {
+        height: 800px;
+        margin-top: 50px;
+        font-size: 13px;
+        padding: 10px 5%;
+    }
+    .footer div {
+        margin: 5px;
+    }
+    .footer div:last-child {
+        margin-top: 50px;
+    }
+    .footer .vision {
+        width: 100%;
+    }
+    .vision img {
+        width: 25%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+    }
+    .vision i {
+        padding: 10px;
+    }
+    .about, .products {
+        width: 45%;
+        text-align: center;
+    }
+    .links {
+        width: 100%;
+        text-align: center;
+    }
+    .reach {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about a, .products a,
+    .links a, .reach a, .reach p {
+        line-height: 25px;
+    }
+    .footer h2 {
+        margin-bottom: 25px;
+    }
+    .reach p i {
+        margin-right: 6px;
+        font-size: 14px;
+    }
+
+    .bottom {
+        width: 96.5%;
+        height: 60px;
+        font-size: 11px;
+    }
+    .bottom p {
+        float: left;
+    }
+    .bottom p:last-child {
+        position: absolute;
+        right: 11%;
     }
 }
